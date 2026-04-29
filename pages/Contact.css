@@ -1,0 +1,79 @@
+.contact {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* FORM CARD */
+.form {
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.form:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.form h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.form input,
+.form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Focus effect */
+.form input:focus,
+.form textarea:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Button */
+.form button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Hover button */
+.form button:hover {
+  background: #5a67d8;
+}
+.error {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
